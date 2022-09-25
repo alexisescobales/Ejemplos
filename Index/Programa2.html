@@ -1,0 +1,23 @@
+<head>
+    <title>Objetos En Javascript</title>
+    </head>
+    <body>
+      <script>
+          var nombre = prompt('Introduce El Nombre Del Gato');
+        var color = prompt('Introduce El Color Del Gato');
+        var raza = prompt('Introduce La Raza Del Gato');
+        
+            var Gato = new gato(nombre, color, raza);
+        
+        function gato(nombre, color, raza){
+        
+            this.nombre = nombre;
+          this.color = color;
+          this.raza = raza;
+        }
+        document.write("El gato se llama: "+Gato.nombre+"</br>");
+        document.write("Y es de color: "+Gato.color+"</br>");
+        document.write("Y su raza es: "+Gato.raza);
+        </script>
+    </body>
+    </html>
