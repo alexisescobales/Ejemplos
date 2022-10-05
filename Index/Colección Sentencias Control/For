@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MODIFICAR ARRAY CON FOR</title>
+</head>
+<body>
+
+<script>
+let notas = [
+    ['Alexis', 9],
+    ['Oliver', 1],
+    ['Mehdi', 2],
+    ['Carlos', 1],
+    ['Marco', 7]
+];
+
+for(var i = 0; i < notas.length; i++){
+	notas[0][i] = prompt('Escribe la nota de '+notas[i][0]);
+}
+</script>
+
+</body>
+</html>
