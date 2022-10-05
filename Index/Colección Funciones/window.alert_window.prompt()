@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h3>Ejemplo de window.alert();</h3>
+
+<script>
+var edad = prompt("Escribe tu edad",'');
+if(edad <= 17){
+alert("No eres mayor de edad");
+}else if (edad >= 18){
+alert("Eres mayor de edad");
+}else{
+alert("Introduce un numero correcto");
+}
+</script>
+</body>
+</html>
