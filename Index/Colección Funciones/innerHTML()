@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejemplo innerHTML</title>
+</head>
+<body>
+
+<div>
+<h1 id="titulo">Texto De Ejemplo</h1>
+<button id="boton" onclick='document.getElementById("titulo").innerHTML = "Ahora soy un texto normal";'>Haz clic para cambiar</button>
+</div>
+
+</body>
+</html>
