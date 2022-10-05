@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ForIn/ForOf</title>
+</head>
+<body>
+
+<script>
+let numero = [1,3,5,7,9]
+
+for (let i in numeros){
+  console.log(i);
+}
+//Muestra el número de elementos en el array
+ 
+for (let i of numeros){
+  console.log(i);
+} 
+//Muestra los valores de los elementos del array
+
+ 
+</script>
+
+</body>
+</html>
