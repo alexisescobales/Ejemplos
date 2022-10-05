@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h3>Ejemplo de console.log();</h3>
+<script>
+console.log("Hello world");
+</script>
+</body>
+</html>
