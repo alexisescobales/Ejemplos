@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h3>Ejemplo de window.confirm();</h3>
+
+<script>
+let respuesta;
+if (confirm("Press a button!") == true) {
+  respuesta = "Aceptaste";
+} else {
+  respuesta = "Cancelaste";
+}
+document.write(respuesta);
+</script>
+</body>
+</html>
