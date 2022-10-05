@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var frase = prompt('Introduce el recordatorio de hoy');
+document.write(frase + "</br>");
+</script>
+
+<button type="button" onclick="document.write('Recordatorio Borrado')">Borrar Recordatorio</button>
+</body>
+
+</html>
