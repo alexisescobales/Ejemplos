@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WHILE</title>
+</head>
+<body>
+
+<script>
+var cont = 0;
+alert("Introduce un usuario y contraseña para registrarte:");
+var user = prompt("Ingresa tu usuario");
+var password = prompt("Ingresa tu contraseña");
+
+
+while(userv != user && passwordv != password){
+alert("Inicia sesion con tu usuario y contraseña:")
+var userv = prompt("Ingresa tu usuario");
+var passwordv = prompt("Ingresa tu contraseña");
+cont++;
+}alert("Has Iniciado Sesion Correctamente");
+</script>
+
+</body>
+</html>
