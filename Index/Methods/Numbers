@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Metodos</title>
+</head>
+<body>
+
+<p>Al utilizar toString(); eso es un string</p>
+<p id="ejemplo"></p>
+<p>Al utilizar valueOf(); ahora es un numero</p>
+<p id="ejemplo2"></p>
+<script>
+let x = 420;
+document.getElementById("ejemplo").innerHTML =
+x.toString();
+document.getElementById("ejemplo2").innerHTML =
+x.valueOf();
+ 
+</script>
+
+</body>
+</html>
