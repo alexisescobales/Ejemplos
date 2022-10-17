@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Metodos</title>
+</head>
+<body>
+
+<p id="array1"></p>
+<p>Elimina a Raul ya que es el ultimo elemento del array</p>
+<p id="array2"></p>
+<p>-----------------------------------</p>
+<p id="array3"></p>
+<p>Elimina a Alexis ya que es el primer elemento del array</p>
+<p id="array4"></p>
+
+<script>
+const nombres = ["Alexis","Mehdi","Josep","Raul"];
+document.getElementById("array1").innerHTML = nombres;
+nombres.pop();
+document.getElementById("array2").innerHTML = nombres;
+
+const nombres2 = ["Alexis","Mehdi","Josep","Raul"];
+document.getElementById("array3").innerHTML = nombres2;
+nombres2.shift();
+document.getElementById("array4").innerHTML = nombres2;
+
+
+</script>
+
+</body>
+</html>
