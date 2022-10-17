@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Metodos</title>
+</head>
+<body>
+
+<p>Cuántas letras tiene tu nombre?</p>
+<p id="ejemplo"></p>
+<p>Tu nombre en mayúsculas</p>
+<p id="ejemplo2"></p>
+
+<script>
+let text = prompt("Ingresa tu nombre completo sin espacios")
+document.getElementById("ejemplo").innerHTML = text.length;
+document.getElementById("ejemplo2").innerHTML = text.toUpperCase();;
+</script>
+
+</body>
+</html>
